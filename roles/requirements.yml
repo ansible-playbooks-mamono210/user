@@ -1,0 +1,4 @@
+---
+roles:
+  - name: mamono210.user
+    src: https://github.com/ansible-roles-mamono210/user.git

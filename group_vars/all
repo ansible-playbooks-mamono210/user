@@ -1,0 +1,6 @@
+---
+users:
+  - name: 'ec2-user'
+    groups: 'ec2-user'
+    authorized_keys:
+      - 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDlQmHq2Yrf0aLb4/ESXVZaBw79nSXKugzsBVuyianyyWTjqMAKi/DVQkCR3WvXnBNKGbb6wy8MN8cuoUL31iJWUNBtSVhb96JjsFSaMH797hMMGfLHC7qRzst+rfkLaEwHwkBROUnmL93FN3t4qGBR0L1aju7PPV6S7Y2CAUMZxw1vN5GAghJEJLF1tFS7iAMoHf4Sj8P1PMi3Tcrkz2zBkpN7EzNYOvPpaotPEqXKFpYDnEa/XiSqa0nS9MthDfkpzl89sXynp0De10w+EODyZlArJCFEfmdvRdnQf/us3AxeLBbV2MQxCzOoPWAAG/9osmFEAaGFKpv5/XHcrrfB tomonori@devel-osaka'
