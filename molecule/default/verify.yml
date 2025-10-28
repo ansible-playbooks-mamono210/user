@@ -4,6 +4,15 @@
   hosts: all
 
   tasks:
+    - name: Check if Pubkeys added
+      ansible.builtin.command: "cat /home/{{ ansible_user }}/.ssh/authorized_keys"
+      register: pubkeys
+      changed_when: false
+
+    - name: Show Pubkeys
+      ansible.builtin.debug:
+        var: pubkeys
+
     - name: Check OS version
       ansible.builtin.command: cat /etc/redhat-release
       register: os_version
